@@ -1,16 +1,36 @@
-# React + Vite
+# Forma Studio — Архитектурный ремонт и инжиниринг
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Forma Studio** — это современный веб-сайт для архитектурного бюро, специализирующегося на комплексном ремонте и инжиниринге. Проект представляет собой лендинг с интерактивным калькулятором сметы, портфолио реализованных объектов и демонстрацией ключевых преимуществ компании.
 
-Currently, two official plugins are available:
+### 🌐 Демо
+Посмотреть работающий проект можно по ссылке: **[forma-studio-site.netlify.app](https://forma-studio-site.netlify.app)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 🚀 Технологии
+*   **Frontend:** React, Vite
+*   **Стилизация:** CSS
+*   **Инструменты:** ESLint, Git
 
-## React Compiler
+###  Ключевые особенности
+*   **Адаптивная верстка:** Сайт корректно отображается на всех устройствах — от мобильных телефонов до больших мониторов.
+*   **Интерактивный калькулятор сметы:** Позволяет пользователю в реальном времени рассчитать предварительную стоимость ремонта, выбрав тип объекта, площадь и класс работ.
+*   **Динамическое портфолио:** Демонстрация реализованных проектов с возможностью просмотра деталей.
+*   **Современный UI/UX:** Чистый и профессиональный дизайн, подчеркивающий надежность и экспертизу компании.
+*   **CRM-панель (в разработке):** В футере сайта предусмотрена кнопка для перехода в панель управления лидами.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🛠️ Как запустить проект локально
+Для запуска проекта на вашем компьютере выполните следующие шаги:
 
-## Expanding the ESLint configuration
+1.  **Клонируйте репозиторий:**
+    `git clone https://github.com/Xtroksis/forma-studio.git`
+2.  **Перейдите в папку проекта:**
+    `cd forma-studio`
+3.  **Установите зависимости:**
+    `npm install`
+4.  **Запустите сервер для разработки:**
+    `npm run dev`
+5.  Откройте `http://localhost:5173/` в вашем браузере.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+###  Сборка проекта
+Для создания production-версии проекта выполните:
+`npm run build`
+Готовые файлы будут находиться в папке `dist`.
